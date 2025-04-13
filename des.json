@@ -1,0 +1,48 @@
+[
+    {
+      "photo": "photo1.jpeg",
+      "title": "Sunset Over Mountains",
+      "description": "A warm sunset casting golden hues over a rugged mountain range."
+    },
+    {
+      "photo": "photo2.jpeg",
+      "title": "City Lights at Night",
+      "description": "A bustling city skyline illuminated with vibrant lights after dark."
+    },
+    {
+      "photo": "photo3.jpeg",
+      "title": "Forest Trail",
+      "description": "A peaceful dirt trail winding through a dense green forest."
+    },
+    {
+      "photo": "photo4.jpeg",
+      "title": "Ocean Horizon",
+      "description": "Endless blue waves meeting the sky at the distant horizon."
+    },
+    {
+      "photo": "photo5.jpeg",
+      "title": "Snowy Peaks",
+      "description": "Towering mountains covered in fresh white snow under a clear sky."
+    },
+    {
+      "photo": "photo6.jpeg",
+      "title": "Desert Dunes",
+      "description": "Rolling sand dunes glowing under the intense midday sun."
+    },
+    {
+      "photo": "photo7.jpeg",
+      "title": "Countryside Road",
+      "description": "A quiet road cutting through open fields and farmland."
+    },
+    {
+      "photo": "photo8.jpeg",
+      "title": "Lakeside Reflection",
+      "description": "Still waters mirroring the surrounding trees and sky."
+    },
+    {
+      "photo": "photo9.jpeg",
+      "title": "Urban Graffiti",
+      "description": "A colorful wall filled with street art and bold graffiti tags."
+    }
+  ]
+  
