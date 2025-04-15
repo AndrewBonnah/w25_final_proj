@@ -1,48 +1,56 @@
 [
-    {
-      "photo": "photo1.jpeg",
-      "title": "Sunset Over Mountains",
-      "description": "A warm sunset casting golden hues over a rugged mountain range."
-    },
-    {
-      "photo": "photo2.jpeg",
-      "title": "City Lights at Night",
-      "description": "A bustling city skyline illuminated with vibrant lights after dark."
-    },
-    {
-      "photo": "photo3.jpeg",
-      "title": "Forest Trail",
-      "description": "A peaceful dirt trail winding through a dense green forest."
-    },
-    {
-      "photo": "photo4.jpeg",
-      "title": "Ocean Horizon",
-      "description": "Endless blue waves meeting the sky at the distant horizon."
-    },
-    {
-      "photo": "photo5.jpeg",
-      "title": "Snowy Peaks",
-      "description": "Towering mountains covered in fresh white snow under a clear sky."
-    },
-    {
-      "photo": "photo6.jpeg",
-      "title": "Desert Dunes",
-      "description": "Rolling sand dunes glowing under the intense midday sun."
-    },
-    {
-      "photo": "photo7.jpeg",
-      "title": "Countryside Road",
-      "description": "A quiet road cutting through open fields and farmland."
-    },
-    {
-      "photo": "photo8.jpeg",
-      "title": "Lakeside Reflection",
-      "description": "Still waters mirroring the surrounding trees and sky."
-    },
-    {
-      "photo": "photo9.jpeg",
-      "title": "Urban Graffiti",
-      "description": "A colorful wall filled with street art and bold graffiti tags."
-    }
-  ]
-  
+  {
+    "photo": "photo1.jpeg",
+    "title": "Sunset Over Mountains",
+    "shortdescription": "A warm sunset casting golden hues over a rugged mountain range.",
+    "longdescription": "As the sun dips behind the jagged silhouettes of the mountain range, the sky comes alive in a breathtaking display of color—deep ambers, burnt oranges, and soft purples melt together, casting a golden veil across the landscape. Shadows stretch across the rugged terrain, highlighting the natural contours and textures of the rocks and peaks. A sense of calm blankets the scene, with the fading light reflecting gently on any lingering mist or snow-capped summits. This tranquil moment captures the raw beauty of nature’s transition from day to night—a fleeting, radiant pause that stirs reflection and wonder."
+  },
+  {
+    "photo": "photo2.jpeg",
+    "title": "City Lights at Night",
+    "shortdescription": "A bustling city skyline illuminated with vibrant lights after dark.",
+    "longdescription": "The city pulses with energy under the cloak of night, as skyscrapers glow with countless lights that twinkle like stars against the darkness. Neon signs, streetlights, and reflections on wet pavement create a kaleidoscope of color and movement. Cars blur past in streaks of red and white, while distant towers shimmer with life. This electric scene captures the heart of urban nightlife—restless, alive, and endlessly captivating."
+  },
+  {
+    "photo": "photo3.jpeg",
+    "title": "Forest Trail",
+    "shortdescription": "A peaceful dirt trail winding through a dense green forest.",
+    "longdescription": "Nestled beneath a canopy of towering trees, the earthy trail leads wanderers through a world of stillness and shade. Sunbeams pierce through leaves, casting dappled patterns on the soft forest floor. The air is rich with the scent of moss and pine, and the quiet is broken only by the occasional chirp of birds or rustle of small creatures. This tranquil path invites reflection and a deep connection with the natural world."
+  },
+  {
+    "photo": "photo4.jpeg",
+    "title": "Ocean Horizon",
+    "shortdescription": "Endless blue waves meeting the sky at the distant horizon.",
+    "longdescription": "The sea stretches infinitely toward the edge of the world, where it meets the sky in a seamless, dreamy blend of blue. Gentle waves rise and fall in a rhythmic dance, whispering secrets of the deep. Light reflects off the water’s surface, creating glittering trails that lead the eye to the vast unknown. This serene seascape evokes a sense of peace, wonder, and boundless possibility."
+  },
+  {
+    "photo": "photo5.jpeg",
+    "title": "Snowy Peaks",
+    "shortdescription": "Towering mountains covered in fresh white snow under a clear sky.",
+    "longdescription": "The majestic mountains rise sharply into a sky so clear it seems painted. Blanketed in pristine snow, the peaks sparkle under the sunlight, their icy edges catching every glint. The silence is profound, broken only by the whisper of the wind across the ridges. This breathtaking view captures nature at its most awe-inspiring—raw, pure, and utterly magnificent."
+  },
+  {
+    "photo": "photo6.jpeg",
+    "title": "Desert Dunes",
+    "shortdescription": "Rolling sand dunes glowing under the intense midday sun.",
+    "longdescription": "Under a blazing sun, the desert stretches in sweeping waves of golden sand. Each dune curves with sculptural grace, shaped by the unrelenting wind. The heat dances above the surface, distorting the horizon in a surreal shimmer. This stark yet stunning landscape embodies the timeless beauty and resilience of arid wilderness."
+  },
+  {
+    "photo": "photo7.jpeg",
+    "title": "Countryside Road",
+    "shortdescription": "A quiet road cutting through open fields and farmland.",
+    "longdescription": "A narrow country road meanders through gently rolling fields, flanked by wildflowers and wooden fences. The golden light of late afternoon casts long shadows, giving the landscape a warm, nostalgic glow. With no traffic in sight, the road invites exploration and evokes the peaceful rhythm of rural life—simple, steady, and full of quiet charm."
+  },
+  {
+    "photo": "photo8.jpeg",
+    "title": "Lakeside Reflection",
+    "shortdescription": "Still waters mirroring the surrounding trees and sky.",
+    "longdescription": "A mirror-like lake captures the world around it with startling clarity—trees, sky, and drifting clouds all doubled in its glassy surface. The water is so still it blurs the line between earth and sky. The air is fresh and still, filled with the scent of water and leaves. This peaceful moment speaks of balance, stillness, and a profound sense of harmony with nature."
+  },
+  {
+    "photo": "photo9.jpeg",
+    "title": "Urban Graffiti",
+    "shortdescription": "A colorful wall filled with street art and bold graffiti tags.",
+    "longdescription": "A concrete wall explodes with color and expression, every inch covered in vibrant graffiti. Layers of tags, murals, and abstract shapes create a visual symphony that pulses with energy and attitude. This is the language of the streets—raw, honest, rebellious. It's a living canvas that tells stories of identity, culture, and the uncontainable urge to be seen and heard."
+  }
+]
