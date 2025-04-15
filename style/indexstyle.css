@@ -1,64 +1,12 @@
+/* create a master main.css and add the other extra parts after */
+
+
 /* style.css */
 
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
+/* Additional body/html styles */
 body, html {
-  height: 100%;
   overflow-x: hidden;
   font-family: "Times New Roman", Times, serif;
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #111;
-  color: white;
-  font-size: 1rem;
-  margin-top: 0rem;
-}
-
-/* Navigation bar styles */
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.25rem;
-  z-index: 1000;
-}
-
-.logo {
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 3.5rem;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-}
-
-nav ul li {
-  cursor: pointer;
-  transition: color 0.3s;
-  font-size: 1.5rem; /* Increased text size */
-}
-
-nav ul li:hover {
-  color: #FF0000;
 }
 
 /* Parallax container styles */
@@ -92,6 +40,18 @@ nav ul li:hover {
   transition: transform 1s ease, filter 1s ease;
 }
 
+/* Highlighted paragraph */
+p.highlight {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  background-color: #b5e5f5;
+  color: black;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 12px;
+
+}
+
 .image-box:hover img {
   transform: scale(2.1) translateZ(-1px);
   filter: brightness(1.1) saturate(1.2);
@@ -100,8 +60,6 @@ nav ul li:hover {
 .image-box:not(:hover) img {
   animation: breatheOut 1s ease;
 }
-
-
 
 /* Lightbox styles */
 .lightbox {
@@ -159,7 +117,6 @@ nav ul li:hover {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Position before animation */
 .from-left {
   left: 0;
   transform: translateX(-100%);
@@ -170,7 +127,6 @@ nav ul li:hover {
   transform: translateX(100%);
 }
 
-/* Slide in */
 .slide-in.from-left {
   transform: translateX(0);
   opacity: 1;
@@ -181,7 +137,6 @@ nav ul li:hover {
   opacity: 1;
 }
 
-/* Slide out to opposite side */
 .slide-out-left {
   transform: translateX(-100%);
   opacity: 0;
@@ -192,10 +147,7 @@ nav ul li:hover {
   opacity: 0;
 }
 
-
-/* --- Insert this at the bottom of your existing CSS file --- */
-
-/* Site title inside nav initially hidden and off-screen */
+/* Site title animation inside nav */
 .site-title {
   position: absolute;
   left: 1rem;
@@ -203,21 +155,21 @@ nav ul li:hover {
   transform: translateY(-50%) translateX(-100%);
   opacity: 0;
   margin: 0;
-  font-size: 2rem;
+  font-size: auto;
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   white-space: nowrap;
   color: #FF0000;
   z-index: 1;
 }
 
-/* Fade the logo out when nav is hovered */
 nav:hover .logo {
   opacity: 0;
   transition: opacity 0.3s ease-out;
 }
 
-/* Slide in the h1 site title when nav is hovered */
 nav:hover .site-title {
   transform: translateY(-50%) translateX(0);
   opacity: 1;
 }
+
+

@@ -1,0 +1,61 @@
+/* style2.css */
+
+body, html {
+  background-color: #121212;
+  color: white;
+}
+
+/* Extra nav list item styling */
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Page content layout */
+.content {
+  padding: 120px 2rem 2rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #FF0000;
+}
+
+/* About section */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 2;
+  min-width: 280px;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.about-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #FF0000;
+}
+
+/* Paragraph spacing override */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}

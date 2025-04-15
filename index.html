@@ -6,30 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Portfolio</title>
-  <link rel="icon" href="images/logo.png" type="image/png">
-  <link rel="stylesheet" href="style/style.css"> <!-- Link to the external style.css -->
+  <link rel="icon" href="neededsiteimages/logo.png" type="image/png">
+  <link rel="stylesheet" href="style/masterstyle.css">
+  <link rel="stylesheet" href="style/indexstyle.css"> <!-- Link to the external style.css -->
 </head>
 
 <body>
   
   <nav>
-    <h1 class="site-title">Welcome to My Portfolio!</h1>
-    <img src="images/logo.png" alt="Stella x3 Logo" class="logo">
-    <ul>
+    <div class="nav-left">
+      <img src="neededsiteimages/logo.png" alt="Stella x3 Logo" class="logo">
+      <h1 class="site-title">Welcome to My Portfolio!</h1>
+    </div>
+  
+    <ul class="nav-center">
       <li><a href="index.html" style="color: inherit; text-decoration: none;">Portfolio</a></li>
       <li><a href="about.html" style="color: inherit; text-decoration: none;">About</a></li>
       <li><a href="contact.html" style="color: inherit; text-decoration: none;">Contact</a></li>
     </ul>
+  
+    <div class="social-links">
+      <a href="https://www.instagram.com/n0tacaptain" class="social-link">
+        <img src="neededsiteimages/instalogo.png" alt="Instagram" class="social">
+      </a>
+      <a href="https://www.linkedin.com/in/stella-rusk-82895b2b2/" class="social-link">
+        <img src="neededsiteimages/linkedinlogo.png" alt="LinkedIn" class="social">
+      </a>
+
   </nav>
 
   <div class="parallax-container" id="gallery">
-    <!-- Images will be loaded here by JavaScript -->
+    <!-- Images will be loaded here by mainpagescript.js -->
   </div>
   
-  <script src="script.js"></script>
+  <script src="mainpagescript.js"></script>
 </body>
 <footer>
-  <p>All photographs are the exclusive property of the artist. © 2025 Andrew B. All rights reserved.</p>
+  <p>All photographs are the exclusive property of Stella Rusk. Website Created by Andrew Bonnah. All rights reserved 2025 ©</p>
 
 </footer>
 

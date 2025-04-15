@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
             // creates paragraph descriptions from des.json and saves it to desc
             const desc = document.createElement("p");
+            desc.classList.add("highlight");
             desc.textContent = longdescription;
   
             // creates button and lightbox clsoing functionality
@@ -79,11 +80,31 @@ document.addEventListener("DOMContentLoaded", () => {
             lightbox.appendChild(desc);
             lightbox.appendChild(closeBtn);
             document.body.appendChild(lightbox);
+
+
+            document.querySelectorAll("p.highlight").forEach((highlight) => {
+              
+              highlight.addEventListener('mousemove', (e) => {
+
+                const rect = highlight.getBoundingClientRect();
+
+                const x = (e.clientX - rect.left - rect.width / 10) / 50;
+                const y = (e.clientY - rect.top + rect.height / 10) / 10;
+            
+                highlight.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+              });
+            
+              lightbox.addEventListener('mouseleave', () => {
+                highlight.style.transform = 'rotateY(0deg) rotateX(0deg)';
+              });
+            });
+            
+
           });
         });
   
         // Observer for sliding slide-title in and out of view as the tiles come in to view.
-        
+
         const observer = new IntersectionObserver(
           (entries) => {
             entries.forEach((entry) => {
@@ -108,9 +129,16 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".image-box").forEach((box) =>
           observer.observe(box)
         );
+        
       })
       .catch((error) => {
         console.error("Error loading des.json:", error);
       });
-  });
+
+
+
+
+      });
+
+
   

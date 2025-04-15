@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Times New Roman', serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  z-index: 1000;
+  /* Since nav is fixed, it is already a positioned element and will serve as the containing block */
+}
+
+.logo {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  cursor: pointer;
+  transition: color 0.3s;
+  font-size: 1.5rem;
+}
+
+nav ul li:hover {
+  color: #FF0000;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0rem;
+}
+
+/* position the wrapper at the right of the navbar */
+.social-links {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;       /* distance from the right edge */
+  transform: translateY(-50%);
+  display: flex;        /* lay out children in a row */
+  gap: 0.75rem;         /* space between the two logos */
+}
+
+/* links no longer need absolute positioning */
+.social-link {
+  position: static;
+}
+
+/* keep your existing icon styling */
+.social {
+  height: 2rem;
+  object-fit: contain;
+  cursor: pointer;
+}
