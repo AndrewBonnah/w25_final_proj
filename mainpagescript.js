@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         gallery.appendChild(imageBox);
 
-        // ✅ Make imageBox tabbable and accessible
+
         imageBox.tabIndex = 0;
         imageBox.setAttribute("role", "button");
         imageBox.setAttribute("aria-label", shortdescription);
@@ -79,12 +79,12 @@ imageBox.addEventListener("click", () => {
     document.body.removeChild(lightbox);
   });
 
-  // ✅ Make lightbox elements tabbable
+
   backupImg.tabIndex = 0;
   desc.tabIndex = 0;
   closeBtn.tabIndex = 0;
 
-  // ✅ Trap focus inside lightbox
+
   const focusableElements = [backupImg, desc, closeBtn];
   let focusIndex = 0;
 
@@ -101,7 +101,7 @@ imageBox.addEventListener("click", () => {
     }
   });
 
-  // ✅ Focus the close button initially
+
   setTimeout(() => closeBtn.focus(), 0);
 
   lightbox.appendChild(backupImg);
