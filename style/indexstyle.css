@@ -1,15 +1,10 @@
-/* create a master main.css and add the other extra parts after */
 
-
-/* style.css */
-
-/* Additional body/html styles */
 body, html {
   overflow-x: hidden;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Parallax container styles */
+
 .parallax-container {
   position: relative;
   overflow-x: hidden;
@@ -19,7 +14,6 @@ body, html {
   scroll-behavior: smooth;
 }
 
-/* Image box styles */
 .image-box {
   position: relative;
   height: 100vh;
@@ -40,7 +34,6 @@ body, html {
   transition: transform 1s ease, filter 1s ease;
 }
 
-/* Highlighted paragraph */
 p.highlight {
   display: inline-block;
   transition: transform 0.2s ease;
@@ -61,7 +54,6 @@ p.highlight {
   animation: breatheOut 1s ease;
 }
 
-/* Lightbox styles */
 .lightbox {
   position: fixed;
   top: 0;
@@ -104,7 +96,9 @@ p.highlight {
   background: #FF0000;
 }
 
-/* Slide title styles */
+
+/* slide title animation classes */
+
 .slide-title {
   position: absolute;
   top: 15%;
@@ -147,7 +141,6 @@ p.highlight {
   opacity: 0;
 }
 
-/* Site title animation inside nav */
 .site-title {
   position: absolute;
   left: 1rem;
